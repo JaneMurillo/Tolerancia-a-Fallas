@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Prefect.iml" filepath="$PROJECT_DIR$/.idea/Prefect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Workflow-managers.iml" filepath="$PROJECT_DIR$/.idea/Workflow-managers.iml" />
     </modules>
   </component>
 </project>

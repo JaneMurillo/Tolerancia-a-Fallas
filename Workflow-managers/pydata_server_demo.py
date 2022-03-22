@@ -1,4 +1,4 @@
-"""from prefect import task, Flow
+"""from prefect import task, Flow 
 
 @task
 def hello_world():
@@ -7,21 +7,21 @@ def hello_world():
 with Flow("my first flow!") as f:
 	r = hello_world()
 
-f.run()"""
+f.run() """
 
 from prefect import task, Flow
 
-@flow #Decorator
+@task #Decorator
 def hello_world():
 	print("Hello world!")
 	return "Hello Prefect!"
 
-@task
+@task #New
 def prefect_say(s: str):
 	print(s)
 
 with Flow("my first flow!") as f:
-	r = hello_wold()
-	s2 = prefect_say(r)
+	r = hello_world()
+	s2 = prefect_say(r) # r pass as an argument
 
-f.run()
+f.run() # Call run method
